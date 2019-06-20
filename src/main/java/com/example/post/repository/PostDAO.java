@@ -36,4 +36,13 @@ public class PostDAO {
 		return count == 1;
 	}
 
+//    public boolean login(String id, String pwd) {
+//		if (id.isEmpty() || pwd.isEmpty()) {
+//			return false;
+//		}
+//
+//		if ("admin".equals(id) && "1234".equals(pwd)) {
+//			return true;
+//		}
+//    }
 }
